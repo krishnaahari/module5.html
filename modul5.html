@@ -1,1 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="vieport" content="width=device-width,intial-scale=1">
+<title></title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+<style>
+*{
+margin:0px;
+padding:0px;
+}
+#grid{
+background-color:#838b8b;
+border:2px solid black;
+}
+h1{
+color:green;
+font-size:70px;
+font-family: 'Nerko One', cursive;
+}
 
+#menu{
+font-size:40px;
+font-weight:bold;
+}
+.dropdown{
+margin:10px;
+padding:10px;
+}
+body{
+background-color:orange;
+}
+#img{
+position:absolute;
+top:300px;
+left:30px;
+border-radius:200px;
+width:400px;
+height:400px;
+opacity:0.7;
+}
+#post{
+width:200px;
+height:30px;
+border:1px solid ;
+background-color:green;
+color:white;
+}
+th{
+width:200px;
+height:30px;
+border:1px solid ;
+background-color:	#bdb76b;
+color:white;
+}
+table{
+position:absolute;
+top:200px;
+right:20px;
+}
+</style>
+</head>
+<body>
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+<div class="container">
+<a href="" class="navbar-brand">CHAOS RESTARUANT</a>
+<div class="dropdown">
+  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+    MENU
+  </button>
+  <div id="menu" class="dropdown-menu">
+    <a class="dropdown-item" href="#">lunch</a>
+    <a class="dropdown-item" href="#">Dinner</a>
+    <a class="dropdown-item" href="#">Sushi</a>
+  </div>
+</div><br>
+<div id="list" class="dropdown">
+  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+    LIST
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item " href="#">vegetarian food</a>
+    <a class="dropdown-item" href="#"> non-vegetarian food</a>
+    <a class="dropdown-item" href="#">healthy food</a>
+  </div>
+</div>
+<div id="list" class="dropdown">
+  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+    about
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">address</a>
+    <a class="dropdown-item" href="#">information</a>
+    <a class="dropdown-item" href="#">contact number</a>
+  </div>
+</div>
+<p class="text-center" id="menu"></p>
+
+<section class="container-fluid  " >
+
+</div>
+</nav>
+</section>
+<h1>choas restarunt</h1>
+<section>
+<table>
+<tr>
+<th id="post">sr.no.</th>
+<th id="post">menu</th>
+<th id="post">prize(Rs.)</th>
+</tr>
+<tr>
+<th>1</th>
+<th>Grilled cheese</th>
+<th>78</th>
+</tr>
+<tr>
+<th>2</th>
+<th>Tomato soap</th>
+<th>89</th>
+</tr>
+<tr>
+<th>3</th>
+<th>chicken burger</th>
+<th>100</th>
+</tr>
+<tr>
+<th>4</th>
+<th>chicken pesto</th>
+<th>99</th>
+</tr>
+<tr>
+<th>5</th>
+<th>meatloaf</th>
+<th>78</th>
+</tr>
+<tr>
+<th>6</th>
+<th>french fries</th>
+<th>45</th>
+</tr>
+<tr>
+<th>7</th>
+<th>baked potaoes</th>
+<th>56</th>
+</tr>
+<tr>
+<th>8</th>
+<th>mangoes</th>
+<th>67</th>
+</tr>
+<tr>
+<th>9</th>
+<th>ice creams</th>
+<th>45</th>
+</tr><tr>
+<th>10</th>
+<th>italian salad</th>
+<th>300</th>
+</tr><tr>
+<th>11</th>
+<th>pizza</th>
+<th>200</th>
+</tr><tr>
+<th></th>
+<th>burger</th>
+<th>790</th>
+</tr>
+<tr>
+<th>12</th>
+<th>onion chees</th>
+<th>49</th>
+</tr>
+</table>
+</section>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_qZV1v9GLZXRtbtMIzARhYhlJkVwtTcHE8Q&usqp=CAU" id="img"></img>
+<script type="text/javascript">
+</script>
+</body>
+</html>
